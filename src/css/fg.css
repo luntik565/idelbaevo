@@ -1,0 +1,19 @@
+@import url(main.css);
+
+.f-g{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    padding: 30px 0;
+}
+
+.card{
+    width: 300px;
+}
+
+@media(max-width:500px){
+    .card{
+        width: 100%;
+    }
+}

@@ -1,0 +1,64 @@
+@import url(main.css);
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.home-title{
+    text-align: center;
+    font-size: 45px;
+}
+
+.home-txt{
+    width: 700px;
+    font-size: 20px;
+}
+
+.home-slider{
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider-line{
+    display: flex;
+    transition: 0.5s;
+}
+
+.slider-image{
+    min-width: 350px;
+}
+
+.slider-button{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.slider-control{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+@media(max-width:850px){
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-title{
+        font-size: 35px;
+    }
+
+    .home-txt{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
