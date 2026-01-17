@@ -2,7 +2,7 @@ import '../css/contact.css'
 
 export default function Contact(){
     return(
-        <section className="padding-container green">
+        <section className="padding-container green" id='contact'>
             <div className="container">
                 <div className="">
                     <h1 className='footer-title'>Приезжайте ко мне на отдых!</h1>
