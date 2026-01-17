@@ -1,6 +1,6 @@
 import '../css/subtitle.css'
 
-export default function() {
+export default function Subtitle(){
     return(
         <section className='sub-header'>
             <div className="container title-cont">
