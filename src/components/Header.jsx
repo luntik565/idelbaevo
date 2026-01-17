@@ -7,10 +7,10 @@ export default function Header(){
         setopen(!open)
     }
     return(
-        <header className='header'>
+        <header className='header' id='header'>
             <div className=" header-cont container">
                 <ul className={` header-item ${open ? 'act' : ''}`}>
-                    <li><a href="#!" className='header-link'>Главная</a></li>
+                    <li><a href="#header" className='header-link'>Главная</a></li>
                     <li><a href="#home" className='header-link'>Про дом</a></li>
                     <li><a href="#fg" className='header-link'>Фотогалерея</a></li>
                     <li><a href="#map" className='header-link'>Как доехать</a></li> 
